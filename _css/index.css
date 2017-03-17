@@ -1,5 +1,6 @@
 .navigation_item a {font-family: Courier New, Courier, monospace;}
-.navigation { background: #FFF;}
+.navigation { background: #FFF; margin: 0;}
+.navigation::after { content: ''; display: table; clear: both;}
 
 .navigation_item { float: left;
 border: none;
